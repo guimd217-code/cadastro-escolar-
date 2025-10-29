@@ -38,10 +38,40 @@ Desenvolver um sistema de banco de dados que:
 - **Esta:** relaciona alunos às turmas.
 
 ### 🧩 Diagrama Entidade-Relacionamento (DER)
-O DER foi desenvolvido no [app.diagrams.net](https://app.diagrams.net/) e está disponível na pasta `/documentacao`.
+O DER foi desenvolvido no https://app.brmodeloweb.com/ e está disponível na pasta `/documentacao`.
 
 **Arquivo:** `documentacao/DER_final.png`
 
----
 
 ## 🗂️ Estrutura do Projeto
+---
+
+## 💾 Scripts SQL
+
+### 📄 01_create_tables.sql
+Contém a criação das tabelas:
+- `Aluno`
+- `Curso`
+- `Turma`
+- `Cursa`
+- `Esta`
+
+Com suas **chaves primárias (PK)** e **estrangeiras (FK)** devidamente definidas.
+
+### 📄 02_insert_data.sql
+Contém a **inserção de dados de exemplo** (alunos, cursos e turmas) e suas associações.
+
+### 📄 03_select_queries.sql
+Inclui **consultas SQL (SELECT)** para buscar:
+- Todos os alunos;  
+- Alunos de um curso específico;  
+- Alunos por turma;  
+- Alunos com curso e turma correspondentes.
+
+---
+
+## 🧱 Tecnologias Utilizadas
+- **Modelagem:** Brmodelo
+- **Banco de Dados:** MySQL  
+- **Controle de Versão:** Git e GitHub  
+- **Documentação:** Google Docs / Markdown  
