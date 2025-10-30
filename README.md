@@ -40,7 +40,7 @@ Desenvolver um sistema de banco de dados que:
 ### 🧩 Diagrama Entidade-Relacionamento (DER)
 O DER foi desenvolvido no https://app.brmodeloweb.com/ e está disponível na pasta `/documentacao`.
 
-**Arquivo:** `documentacao/DER_final.png`
+**Arquivo:** `documentacao/
 
 
 ## 🗂️ Estrutura do Projeto
